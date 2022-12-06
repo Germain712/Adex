@@ -157,6 +157,14 @@ body {
   #REUSED STYLE
 \*-----------------------------------*/
 
+.container {
+  padding-inline: 16px;
+}
+.social-list {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
 /*-----------------------------------*\
   #HEADER
 \*-----------------------------------*/
