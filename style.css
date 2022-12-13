@@ -203,8 +203,15 @@ body {
     transform: translateY(-100%);
   }
   100% {
-    transform: translateY(0%);
+    transform: translateY(0);
   }
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
 }
 /*-----------------------------------*\
   #HERO
